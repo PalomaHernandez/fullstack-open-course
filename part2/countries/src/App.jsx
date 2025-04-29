@@ -66,7 +66,6 @@ const CountryList = ({ countries, handleCountryClick }) => {
 
 const App = () => {
   const [countries, setCountries] = useState([]) 
-  const [country, setCountry] = useState('')
   const [filter, setFilter] = useState('')
 
   useEffect(() => {
